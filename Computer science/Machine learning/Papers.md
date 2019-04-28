@@ -1,0 +1,17 @@
+* [Language Models are Unsupervised Multitask Learners](https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf)
+    - move from labeled dataset with supervised learning to more generalist systems
+    - multitask learning
+        - https://towardsdatascience.com/multitask-learning-teach-your-ai-more-to-make-it-better-dde116c2cd40
+    - zero-shot task transfer
+        - https://arxiv.org/abs/1903.01092
+    - prob. distribution modeled as product of conditional probabilities
+        - self-attention architectures like the Transformer
+            - https://medium.com/@adityathiruvengadam/transformer-architecture-attention-is-all-you-need-aeccd9f50d09
+    - children's book test
+        - https://uclmr.github.io/ai4exams/data.html
+    - a model trained to generate Wikipedia articles also learned to translate names between languages
+        - https://arxiv.org/pdf/1801.10198.pdf
+    - test amount of information contained in LM - [natural questions](http://ai.googleblog.com/2019/01/natural-questions-new-corpus-and.html)
+    - dataset: WebText, scraped from link on Reddit, 8M documents, 40GB of text
+        - [article metadata extraction](https://github.com/codelucas/newspaper) used
+    - analyze how much test data also shows up in the training data
