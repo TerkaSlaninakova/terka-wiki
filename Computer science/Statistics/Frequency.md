@@ -1,7 +1,7 @@
 ## Frequency
 Frequency of an event captures number of times the event occured, often portrayed in histograms
 - absolute frequency
-    - $n_j = card\{j; x=x_[j]\}$
+    - $$n_j = card\{j; x=x_[j]\}$$
 - relative frequency
     - $p_j = \frac{n_j}{n}$
 - Absolute cumulative frequency of first $j$ cases:
@@ -36,12 +36,12 @@ Observations:
 
 ## Graphs
 - graph of the frequency function
-![freq](./freq-function.PNG)
+![freq](./freq-function.png)
 
 - graph of empirical distribution function (= cumulative distribution function)
-![emp-distr](./distr-function.PNG)
+![emp-distr](./distr-function.png)
 - frequency polygon graph
-![poly](./polygon-frequency.PNG)
+![poly](./polygon-frequency.png)
 # Sources
 - [czech] https://is.muni.cz/do/rect/el/estud/prif/ps15/statistika/web/pages/zakladni-a-vyberovy.html
 - https://en.wikipedia.org/wiki/Frequency_(statistics)
