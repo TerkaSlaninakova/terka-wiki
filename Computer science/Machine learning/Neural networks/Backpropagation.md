@@ -30,16 +30,19 @@ def linear_scale(series):
 ```
 def log_normalize(series):
   return series.apply(lambda x:math.log(x+1.0))
-
+```
+```
 def clip(series, clip_to_min, clip_to_max):
   return series.apply(lambda x:(
     min(max(x, clip_to_min), clip_to_max)))
-
+```
+```
 def z_score_normalize(series):
   mean = series.mean()
   std_dv = series.std()
   return series.apply(lambda x:(x - mean) / std_dv)
-
+```
+```
 def binary_threshold(series, threshold):
   return series.apply(lambda x:(1 if x > threshold else 0))
 ```

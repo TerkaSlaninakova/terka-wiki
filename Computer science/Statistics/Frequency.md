@@ -51,47 +51,35 @@ Observations:
 ```
 data <- read.csv (file = "dataset.csv", header = TRUE, sep = ",", dec = ".")
 str (data)
-
 d.j <- data$delimiter.h - data$delimiter.d
 middles <- (data$delimiter.d + data$delimiter.h) / 2
 str (middles)
-
 r <- nrow (data)
 n.j <- data$sum
-
 n <- sum (n.j)
-
 p.j <- n.j / n
 sum (p.j)
-
 N.j <- cumsum (n.j)
-
 F.j <- N.j / n
-
+```
+```
 # frequency density
 f.j <- p.j / d.j
-
 table <- data.frame (middles = middles, delimiter.d = data$delimiter.d, delimiter.h = data$delimiter.h, d.j, n.j, p.j, N.j, F.j, f.j)
 table
-
 barplot (table$n.j, names.arg = paste(table$delimiter.d, "-", table$delimiter.h), xlab = "delimiters", ylab = "sum of observations", main = "column diagram")
-
 # frequency function graph
 plot (paste(table$delimiter.d, "-", table$delimiter.h), table$n.j, type = "p", pch = 20, cex = 2, col = "red", xlab = "delimitere", ylab = "frequency function", main = "frequency function")
-
 # polygon graph
 plot (paste(table$delimiter.d, "-", table$delimiter.h), table$n.j, type="b", pch = 20, xlab = "delimiters", ylab = "sum of observations", main = "polygon frequencies", col = "red", cex = 2, lty = 2)
-
 barplot (table$p.j, names.arg = paste(table$delimiter.d, "-", table$delimiter.h), xlab = "delimiters", ylab = "sum of observations", main = "column diagram of relative frequencies")
-
 barplot (table$f.j, names.arg = paste(table$delimiter.d, "-", table$delimiter.h), xlab = "delimiters", ylab = "frequency density", main = "column diagram of frequency density")
-
 X <- rep(table$middles, table$n.j)
+```
+```
 # only in interval frequency distributions
 hist (X, breaks = c(table$delimiter.d[1], table$delimiter.h), freq= FALSE, col="yellow", xlab = "delimitere", ylab = "frequency density", main = "histogram")
-
 plot (c(0,table$delimiter.d[1],table$delimiter.h,200), c(0,0,table$F.j,1), type="b", xlab = "middle", ylab = "ECDF", main="empirical distribution function", col = "red", lwd = 2)
-
 boxplot (X, horizontal = TRUE, ylim = range (X), main = "boxplo)")
 stripchart (X, vertical = FALSE, method = "jitter", pch = 21, col = "red", bg = "yellow", cex = 1.5, add = TRUE)
 ```
