@@ -17,20 +17,22 @@
     - [Parameter tuning GBM](https://www.analyticsvidhya.com/blog/2016/02/complete-guide-parameter-tuning-gradient-boosting-gbm-python/)
     - [Machine Learning Mastery- GBM](http://machinelearningmastery.com/gentle-introduction-gradient-boosting-algorithm-machine-learning/)
 ## Data Science
-- [Data science at the command line](https://www.datascienceatthecommandline.com)
+- [DONE] [Data science at the command line](https://github.com/TerkaSlaninakova/data-science-portfolio/tree/master/data-science-at-command-line)
 - [Python for data analysis [book]](https://www.oreilly.com/library/view/python-for-data/9781491957653/)
-- Data handling
-    - pandas
-        - [Intro to structures](http://www.gregreda.com/2013/10/26/intro-to-pandas-data-structures)
-        - [Foundations](https://www.datacamp.com/courses/pandas-foundations)
-    - seaborn
-- Data visualization
-    - [matplotlib](https://nbviewer.jupyter.org/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-4-Matplotlib.ipynb), seaborn
-    - [9 popular ways to perform Data Visualization in Python](https://www.analyticsvidhya.com/blog/2015/05/data-visualization-python/)
-- web scraping
-    - beautifulsoup, requests
-- math
-    - [scipy](https://docs.scipy.org/doc/scipy/reference/tutorial/), [numpy](https://nbviewer.jupyter.org/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-2-Numpy.ipynb)
+- [Thinking with your data [book]](https://www.goodreads.com/book/show/21413240-thinking-with-data)
+### Data handling
+- pandas
+    - [Intro to structures](http://www.gregreda.com/2013/10/26/intro-to-pandas-data-structures)
+    - [Foundations](https://www.datacamp.com/courses/pandas-foundations)
+- seaborn
+### Data visualization
+- [matplotlib](https://nbviewer.jupyter.org/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-4-Matplotlib.ipynb), seaborn
+- [9 popular ways to perform Data Visualization in Python](https://www.analyticsvidhya.com/blog/2015/05/data-visualization-python/)
+### Web scraping
+- beautifulsoup, requests
+- [Mining the Social Web [book]](https://www.webpages.uidaho.edu/~stevel/504/mining-the-social-web-2nd-edition.pdf)
+### Math
+- [scipy](https://docs.scipy.org/doc/scipy/reference/tutorial/), [numpy](https://nbviewer.jupyter.org/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-2-Numpy.ipynb)
 - [this EDA assignment](https://nbviewer.jupyter.org/github/cs109/2014/blob/master/homework/HW1.ipynb)
 - [Data exploration w/ numpy matplotlib pandas](https://www.analyticsvidhya.com/blog/2015/04/comprehensive-guide-data-exploration-sas-using-python-numpy-scipy-matplotlib-pandas/)
 - [Data preprocessing](https://medium.com/ml-research-lab/chapter-5-story-behind-data-preprocessing-799c06d8581d)
