@@ -12,7 +12,7 @@ Regularization **reduces over-fitting** by adding a penalty to the loss function
     $$
     Loss(Data|Model) + \lambda(w_1^2, ..., w_n^2)
     $$
-    where $\lambda$ controls how much we care about the regularization 
+    where $$\lambda$$ controls how much we care about the regularization 
 
 ## L0 regularization
     - we want to force weights to 0 esp. when the data points (together w/ feature crosses of them) are too big. If i use a count-based approach that L0 represents - e.g. counting non-zero coefficient values, this will result in an NP-hard problem

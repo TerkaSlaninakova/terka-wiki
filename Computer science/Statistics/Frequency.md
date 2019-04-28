@@ -3,11 +3,11 @@ Frequency of an event captures number of times the event occured, often portraye
 - absolute frequency
     - $$n_j = card\{j; x=x_[j]\}$$
 - relative frequency
-    - $p_j = \frac{n_j}{n}$
-- Absolute cumulative frequency of first $j$ cases:
-    - $N_j = n_1 + ... + n_j$
-- Relative cumulative frequency of first $j$ cases:
-    - $F_j = \frac{N_j}{n}$
+    - $$p_j = \frac{n_j}{n}$$
+- Absolute cumulative frequency of first $$j$$ cases:
+    - $$N_j = n_1 + ... + n_j$$
+- Relative cumulative frequency of first $$j$$ cases:
+    - $$F_j = \frac{N_j}{n}$$
 
 Example: How many packs of cigarettes do smokers use per a unit of time?
 
@@ -23,12 +23,12 @@ also can be represented in an interval form:
 |# Smokers|18|7|13|7|
 
 **A frequency distribution table:**
-|$x_[j]$|$n_j$|$p_j$|$N_j$|$F_j$|
+|$$x_[j]$$|$$n_j$$|$$p_j$$|$$N_j$$|$$F_j$$|
 |---|---|---|---|---|
-|1|7|$\frac{7}{15}$|7|$\frac{7}{15}$|
-|2|4|$\frac{4}{15}$|11|$\frac{11}{15}$|
-|3|3|$\frac{3}{15}$|14|$\frac{14}{15}$|
-|4|1|$\frac{1}{15}$|15|1|
+|1|7|$$\frac{7}{15}$$|7|$$\frac{7}{15}$$|
+|2|4|$$\frac{4}{15}$$|11|$$\frac{11}{15}$$|
+|3|3|$$\frac{3}{15}$$|14|$$\frac{14}{15}$$|
+|4|1|$$\frac{1}{15}$$|15|1|
 
 Observations:
 - i'll get x_j and n_j from the original problem description table
