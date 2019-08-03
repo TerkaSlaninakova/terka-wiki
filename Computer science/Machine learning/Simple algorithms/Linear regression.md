@@ -1,2 +1,0 @@
-# Linear regression
-Linear regression is about fitting a line / hyperplane to a set of points. Given a set of points `(x_1,x_2), ..., (x_n,y_n)`, find a hyperplane `y = w_i x_i + b`. To know that out hyperplane is good, we have a 

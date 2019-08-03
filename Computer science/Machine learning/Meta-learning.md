@@ -1,0 +1,2 @@
+# Meta learning
+Goal: train a model on a **variety of learning tasks**, such that it can solve new learning tasks with only a small number of training samples. It tends to focus on finding **model-agnostic solutions**, whereas **multi-task learning** remains deeply **tied to model architecture**.

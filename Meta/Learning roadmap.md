@@ -1,5 +1,9 @@
+# Concepts
+- [The Data Scientist's Toolbox](https://www.youtube.com/watch?v=3hqGcRoEYUY&list=PLmTpraKlPXDSPbP2L8MYZoweGSzi9gNTr)
 # Machine Learning / Data science
-- [ML CrashCourse by Google](https://developers.google.com/machine-learning/crash-course/)
+- [ML CrashCourse by Google](https://developers.google.com/machine-learning/crash-course/) [done]
+- [fast.ai](https://course.fast.ai/)
+    - [Introduction to Machine Learning for Coders](http://course18.fast.ai/ml)
 - scikit-learn
 - [competititve data science course](https://www.coursera.org/learn/competitive-data-science)
 ## Machine Learning Algorithms
@@ -41,8 +45,10 @@
 - [Loan prediction](https://datahack.analyticsvidhya.com/contest/practice-problem-loan-prediction-iii/)
 
 ## NNs / Deep learning
+- http://www.deeplearningbook.org/
 - keras
 - tensorflow
+    - [tensorflow-in-practice](https://www.coursera.org/specializations/tensorflow-in-practice)
 - pytorch
 
 ## Tool-specific

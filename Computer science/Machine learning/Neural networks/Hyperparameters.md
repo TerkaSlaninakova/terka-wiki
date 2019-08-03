@@ -1,5 +1,18 @@
 [IN CONSTRUCTION]
 # Learning rate
+
+Most famous hyperparameter, required to be set by most of optimizers. It's guiding the training process by directly influencing strength of gradient descent (speed of its convergence and whether it'll undreshoot/overshoot or reach the local/global minimum).
+
+## Problems How to picking up the correct LR
+Generally, the approach is to start with the smallest LR possible and incrementally increase until the loss doesn't decrease anymore (useful to plot a graph).
+- **Problem with this approach**: Saddle points - gradients are close to 0, optimization reaches pleateu. Solution: Change LR every iteration according to some **cyclic function** f (if we get stuck in a plateau, increasing LR allows us to escape from it).
+### Types of cyclical learning rates:
+- [Triangular (Smith at al.)](https://arxiv.org/pdf/1506.01186.pdf)
+- ['Cosine annealing' (Loshchilov et al.)](https://arxiv.org/abs/1608.03983)
+- Another benefit of this approach is the imrpovement in accuracy - small LR tends to favor closest minima, increasing it from time to time helps it escape.
+
+At this point using cyclical LRs is SOTA training technique with no additional (computational or other) cost that imrpoved performance.
+
 * [TODO] [LR range tests](https://arxiv.org/pdf/1506.01186.pdf)
 * https://medium.com/38th-street-studios/exploring-stochastic-gradient-descent-with-restarts-sgdr-fa206c38a74e
 * https://towardsdatascience.com/estimating-optimal-learning-rate-for-a-deep-neural-network-ce32f2556ce0
@@ -12,15 +25,8 @@
 # Network architecture
 - https://github.com/carpedm20/ENAS-pytorch
 
-# Regularization techniques (but also hyperparameters)
-Regularization **reduces over-fitting** by adding a penalty to the loss function.
-## Momentum
-[TODO]
-* [Why Momentum Really Works
-](https://distill.pub/2017/momentum/)
 
 ## [Dropout, L1, L2](../Regularization.md)
-
 
 ## Hyperparameter Optimization Algorithms
 
